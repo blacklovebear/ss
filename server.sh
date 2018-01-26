@@ -7,5 +7,5 @@ python setup.py install
 easy_install pip
 pip install shadowsocks
 
-ssserver -p 8388 -k ZhouPeng_VPN -m aes-128-cfb --user nobody -d start
+ssserver -p 80 -k ZhouPeng_VPN -m aes-256-cfb --user nobody -d start -s :: --fast-open --workers 4
 #sudo ssserver -d stop
