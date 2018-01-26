@@ -1,0 +1,8 @@
+{
+    "server":"127.0.0.1",
+    "server_port":12948,
+    "local_port":1080,
+    "password":"ZhouPeng_VPN",
+    "method": "aes-256-cfb",
+    "timeout":600
+}
